@@ -35,14 +35,14 @@ diatas.
   ```R
   print(data_oxigenSaturation)
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_a_1.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_a_1.png)
 
   Setelah itu barulah dicetak hasil devisiasi standar untuk data sebelum.
   ```R
   devisiasiStandar_sebelum <- sd(sebelum)
   devisiasiStandar_sebelum
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_a_2.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_a_2.png)
 
 
   Setelah itu barulah dicetak hasil devisiasi standar untuk data sesudah.
@@ -50,13 +50,13 @@ diatas.
   devisiasiStandar_sesudah <- sd(sesudah)
   devisiasiStandar_sesudah
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_a_3.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_a_3.png)
 
 - Carilah nilai t (p-value).
   ```R
   t.test(sebelum, sesudah, alternative = "greater", var.equal = FALSE)
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_b.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_b.png)
   
 - Tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen, sebelum dan sesudah melakukan aktivitas 𝐴”
 
@@ -64,12 +64,12 @@ diatas.
   ```R
   var.test(sebelum, setelah)
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_c_1.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_c_1.png)
   
   ```R
   t.test(sebelum, after, mu = 0, alternative = "two.sided", var.equal = TRUE)
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/1_c_2.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_c_2.png)
 
 ## Soal 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan library seperti referensi pada modul).
@@ -81,7 +81,7 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
   ```R
   tsum.test(mean.x=23500, sd(3900), n.x=100)
   ```
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/2_b.png)
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/2_b.png)
 
   Diketahui 
   - n = 100
@@ -97,10 +97,10 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
   H1 : μ > 20000
   ```
 - Buatlah kesimpulan berdasarkan P-Value yang dihasilkan
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/2_c_1.png)  
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/2_c_1.png)  
   Perhitungan diatas dilakukan untuk mencari nilai z.
 
   Barulah mencari nilai p-value.
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Assets/2_c_1.png)  
+  ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/2_c_1.png)  
  
   
