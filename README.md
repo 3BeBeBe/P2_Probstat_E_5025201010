@@ -70,6 +70,7 @@ diatas.
   t.test(sebelum, after, mu = 0, alternative = "two.sided", var.equal = TRUE)
   ```
   ![alt text](https://github.com/3BeBeBe/P2_Probstat_E_5025201010/blob/main/Assets/1_c_2.png)
+  Dapat dilihat bahwa mean dan convidence sama dengan 1b dan p-value juga df berbeda. Sehingga tidak memiliki pengaruh yang signifikan.
 
 ## Soal 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan library seperti referensi pada modul).
